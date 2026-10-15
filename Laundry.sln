@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Domain", "backend\\Laundry.Domain\\Laundry.Domain.csproj", "{4B3F755D-451A-4DF7-80FE-9DD989A05DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Application", "backend\\Laundry.Application\\Laundry.Application.csproj", "{07E8AF43-B175-462E-8C85-5D6451FEEE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Infrastructure", "backend\\Laundry.Infrastructure\\Laundry.Infrastructure.csproj", "{D20F6283-46C0-49E0-98E7-0E1B479EF988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Api", "backend\\Laundry.Api\\Laundry.Api.csproj", "{0DDF2312-4320-4897-90BE-C3E0A9F7C06F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Desktop", "frontend\\Laundry.Desktop\\Laundry.Desktop.csproj", "{0C0D735F-1D0B-4874-996A-4F2480D3A216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laundry.Tests.Unit", "backend\\tests\\Laundry.Tests.Unit\\Laundry.Tests.Unit.csproj", "{CD2BEE76-0DB0-49D1-89E5-ED5D94EB08F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3F755D-451A-4DF7-80FE-9DD989A05DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3F755D-451A-4DF7-80FE-9DD989A05DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E8AF43-B175-462E-8C85-5D6451FEEE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E8AF43-B175-462E-8C85-5D6451FEEE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20F6283-46C0-49E0-98E7-0E1B479EF988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20F6283-46C0-49E0-98E7-0E1B479EF988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDF2312-4320-4897-90BE-C3E0A9F7C06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDF2312-4320-4897-90BE-C3E0A9F7C06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0D735F-1D0B-4874-996A-4F2480D3A216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0D735F-1D0B-4874-996A-4F2480D3A216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2BEE76-0DB0-49D1-89E5-ED5D94EB08F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2BEE76-0DB0-49D1-89E5-ED5D94EB08F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
